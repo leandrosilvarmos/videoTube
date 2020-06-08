@@ -1,0 +1,223 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Josefin Slab', serif;
+}
+
+body{
+    background: #f3f5f9;
+}
+
+.wrapper{
+    display: flex;
+    position: relative;
+}
+
+
+.wrapper .sidebar{
+    position: fixed;
+    width: 220px;
+    height: 100%;
+    background: #4b4276;
+    padding: 30px 0;
+}
+
+.wrapper .sidebar h2{
+color: #ffffff;
+text-transform: uppercase;
+text-align: center;
+margin-bottom: 20px;
+}
+
+.wrapper .sidebar ul li{
+    padding: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    border-top: 1px solid rgba(225,225, 225, 0.05);
+}
+
+.wrapper .sidebar ul li a{
+    color: #bdb8d7;
+    display: block;
+}
+
+.wrapper .sidebar ul li a .fas{
+    width: 25px;
+}
+
+.wrapper .sidebar ul li a .far{
+    width: 25px;
+}
+
+.wrapper .sidebar ul li:hover{
+    background: #594f8d;
+}
+
+.wrapper .sidebar ul li a:hover{
+    color: #fff;
+}
+
+.wrapper .sidebar .social-media{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.wrapper .sidebar .social-media a {
+    display: block;
+    width: 40px;
+    background: #594f8d;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 5px ;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.wrapper .main-content{
+    width: 100%;
+    margin-left: 220px;
+
+}
+
+.wrapper .main-content h2{
+    margin-bottom:15px;
+}
+
+.wrapper .main-content .header{
+    padding: 20px 15px;
+    background: #fff;
+    color: #717171;
+    border-bottom: 1px solid #e0e4e8;
+
+}
+
+.wrapper .main-content .header a{
+    padding: 20px 15px;
+
+
+}
+
+.wrapper .main-content .info{
+    margin:30px;
+    color: #717171;
+    line-height: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.wrapper .main-content .info div{
+    margin-bottom: 60px;
+}
+
+.video{
+    width: 100%;
+
+}
+
+.videoContainer{
+    position: relative;
+    width: 390px;
+    margin: 10px 50px;
+
+
+}
+
+.control{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    text-align: center;
+    display: none;
+}
+
+.btn{
+    position: relative;
+    width: 45px;
+    padding: 1%;
+    margin: 30px 0;
+    top: 100%;
+    transform: translateY(-100%);
+}
+
+
+
+.form-style-6{
+	font: 95% Arial, Helvetica, sans-serif;
+	width: 720px;
+	margin: 10px auto;
+	padding: 16px;
+    background: #F7F7F7;
+    border:1px solid #555;
+}
+.form-style-6 h1{
+	background: #43D1AF;
+	padding: 20px 0;
+	font-size: 140%;
+	font-weight: 300;
+	text-align: center;
+	color: #fff;
+	margin: -16px -16px 16px -16px;
+}
+.form-style-6 input[type="text"],
+.form-style-6 input[type="date"],
+.form-style-6 input[type="datetime"],
+.form-style-6 input[type="email"],
+.form-style-6 input[type="number"],
+.form-style-6 input[type="search"],
+.form-style-6 input[type="time"],
+.form-style-6 input[type="phone"],
+.form-style-6 textarea,
+.form-style-6 select
+{
+	outline: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 300px;
+	background: #fff;
+	margin:2%;
+	border: 1px solid #ccc;
+	padding: 2%;
+	color: #555;
+}
+.form-style-6 input[type="text"]:focus,
+.form-style-6 input[type="date"]:focus,
+.form-style-6 input[type="datetime"]:focus,
+.form-style-6 input[type="email"]:focus,
+.form-style-6 input[type="number"]:focus,
+.form-style-6 input[type="search"]:focus,
+.form-style-6 input[type="time"]:focus,
+.form-style-6 input[type="url"]:focus,
+.form-style-6 textarea:focus,
+.form-style-6 select:focus
+{
+	box-shadow: 0 0 5px #43D1AF;
+	padding: 3%;
+	border: 1px solid #43D1AF;
+}
+button{
+	box-sizing: border-box;
+	width: 50%;
+	padding: 2%;
+	background: #43D1AF;
+	border: 1px solid rgb(40, 41, 41);
+    color: #fff;
+    margin: 3% 0;
+    text-align: center;
+    display: block;
+}
+button:hover{
+	background: rgb(243, 182, 182);
+}
