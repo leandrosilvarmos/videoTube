@@ -1,6 +1,9 @@
 @extends('layouts.app')
-
 @section('content')
+<head>
+    <link rel="stylesheet" href="{{asset('css/style.css')}}">
+</head>
+
 <div class="header"> Bem vindo !! </div>
 <div class="info">
     <div>
@@ -44,6 +47,3 @@
 
 </div>
 @endsection
-
-
-

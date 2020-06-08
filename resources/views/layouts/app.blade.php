@@ -7,14 +7,6 @@
     <title>Document</title>
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
     <script src="https://kit.fontawesome.com/3780101a68.js" crossorigin="anonymous"></script>
-
-    <script>
-        if (typeof (Storage) != "undefined") {
-
-        } else {
-            alert("Sem suporte ao Web Storage");
-        }
-    </script>
 </head>
 
 <body>
