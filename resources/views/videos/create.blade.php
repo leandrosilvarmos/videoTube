@@ -15,10 +15,8 @@
     <div>
     </div>
     <div>
-        <textarea name="" id="" cols="30" rows="6" name="descricao"></textarea>
+        <textarea id="" cols="30" rows="6" name="descricao"></textarea>
         <input type="file" name="video"/>
-
-
     </div>
     <button type="submit"> Cadastrar</button>
 </form>
