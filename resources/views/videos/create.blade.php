@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-
+<div class="header"> Cadastro de Video </div>
 <form class="form-style-6" method="POST" enctype="multipart/form-data" action="{{route('videos.store')}}">
     @csrf
     <div>

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('css/app.css')}}">
     <script src="https://kit.fontawesome.com/3780101a68.js" crossorigin="anonymous"></script>
 </head>
 
@@ -26,6 +27,8 @@
         <div class="main-content" id="main">
             @yield('content')
         </div>
+
+
     </div>
 </body>
 

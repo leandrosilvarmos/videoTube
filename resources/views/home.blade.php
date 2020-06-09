@@ -1,17 +1,15 @@
 @extends('layouts.app')
+
 @section('content')
-
-
-
 <div class="header">
 
 
     <!-- Authentication Links -->
     @guest
-    <a href="{{ route('register') }}"><i class="fas fa-user-plus"></i> Criar Usuario</a>
+    <a href="{{ route('register') }}"><i class="fas fa-video"></i> Criar Usuario</a>
 
     @if (Route::has('register'))
-    <a href="{{ route('login') }}"><i class="fas fa-user-check"></i> Login</a>
+    <a href="{{ route('login') }}"><i class="fas fa-video"></i> Login</a>
 
     @endif
     @else
@@ -25,5 +23,4 @@
 
 
 </div>
-
 @endsection
