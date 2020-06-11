@@ -18,6 +18,8 @@ class VideosController extends Controller
         return view('videos.index')->with('videos' , Videos::all());
     }
 
+
+
     /**
      * Show the form for creating a new resource.
      *

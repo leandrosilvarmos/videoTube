@@ -22,6 +22,7 @@ Route::middleware(['auth'])->group(function () {
 });
 
 Route::get('usuarios' , 'UsuariosController@index')->name('usuarios');
+Route::get('videos/publico' , 'VideospublicosController@indexnotAuth')->name('videos-publico');
 
 
 
